@@ -1,0 +1,10 @@
+[
+    {"it" : {
+        "yogurt":["yog"],
+        "mulino bianco": ["m/b", "m. bianco"],
+        "gelato": ["gel"],
+        "frutti": ["frut"],
+        "intero": ["int"],
+        "dentifricio": ["dentif","dent"]
+    }}
+]

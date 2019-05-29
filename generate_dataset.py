@@ -30,7 +30,7 @@ def read_scraped(dir_paths,category_name,category_id):
     #print(df_all_labels.info())
     df_all_labels.drop(columns=['web-scraper-order','web-scraper-start-url'], inplace=True)
     #df_all_labels.rename({'product':'label'},axis=1, inplace=True)  
-    df_all_labels['label']=df_all_labels['label'].apply(lambda x: clean_vocab_label(x))   
+    df_all_labels['label']=df_all_labels['label'].apply(lambda x: clean_vocab_label(x, "es"))   
 
     # too many labels, keep random 2000
     if df_all_labels.count()['label'] > 4000:
